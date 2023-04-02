@@ -66,7 +66,7 @@ with col1:
     st.write("")
 
 with col2:
-    image = Image.open(r"C:\Users\User\Pablo\Data Science Bootcamp\Phase 3\Project\ChampionsLeagueImage3.png")
+    image = Image.open("ChampionsLeagueImage3.png")
     st.image(image, width = 800)
 with col3:
     st.write("")

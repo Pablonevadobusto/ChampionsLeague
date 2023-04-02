@@ -36,10 +36,10 @@ st.audio(audio_bytes, format='audio/ogg')
 
 ## Loading the ann model
 ### Opening a file with Pickle (Logistic Regression model was saved as Pickle (binary) format)
-with open(r'C:\Users\User\Pablo\Data Science Bootcamp\Phase 3\Project\knn_model.pkl', 'rb') as file:
+with open('knn_model.pkl', 'rb') as file:
           model_knn = pickle.load(file)
 
-with open(r'C:\Users\User\Pablo\Data Science Bootcamp\Phase 3\Project\logistic_regression_model.pkl', 'rb') as file:
+with open('logistic_regression_model.pkl', 'rb') as file:
           model_LR = pickle.load(file)
 ## load the copy of the dataset
 HomeStats = pd.read_csv('HomeStats.csv')
